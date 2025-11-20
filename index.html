@@ -3,13 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flames App</title>
-    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <title>HeatPump Compare UK — Affordable, Efficient & Transparent Heat-Pump Solutions</title>
+    <meta name="description" content="UK heat pump comparison and installation support. Transparent pricing, grant eligibility checks (BUS up to £7,500), and certified installers for air, ground, and hybrid heat pumps." />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HeatPump Compare UK — Smarter, Cleaner & Affordable" />
+    <meta property="og:description" content="Transparent pricing comparison, grant support, and fast installation for UK homes and businesses." />
+    <meta property="og:image" content="https://placehold.co/1200x800/png" />
+    <meta property="og:url" content="/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-sans/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-mono/style.css">
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HeatPump Compare UK",
+      "url": "",
+      "logo": "",
+      "sameAs": []
+    }
+    </script>
+
+    <!-- Structured Data: Services -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Heat Pump Comparison & Installation",
+      "areaServed": "GB",
+      "serviceType": "Air Source, Ground Source, Hybrid Heat Pumps",
+      "provider": {"@type": "Organization", "name": "HeatPump Compare UK"},
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {"@type": "PriceSpecification", "priceCurrency": "GBP"},
+        "description": "Transparent pricing comparison with grant eligibility (BUS up to £7,500)"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Will a heat pump work in winter?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Modern systems operate efficiently even at low UK temperatures."}},
+        {"@type": "Question", "name": "Do I need new radiators?", "acceptedAnswer": {"@type": "Answer", "text": "Not always. We assess existing emitters and may recommend selective upgrades."}},
+        {"@type": "Question", "name": "How long is installation?", "acceptedAnswer": {"@type": "Answer", "text": "Typically 2–4 days for air source and 1–2 weeks for ground source."}},
+        {"@type": "Question", "name": "Is finance available?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we can introduce you to FCA-regulated partners if finance is required."}}
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
